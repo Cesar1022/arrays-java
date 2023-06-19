@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,7 @@ public class Main {
                 "number of odd numbers\n" +
                 "number of even numbers\n" +
                 "number of 0s.");
-        System.out.println("4- adfafd ");
+        System.out.println("4- Take 10 integer inputs from user and store them in an array. Now, copy all the elements in an another array but in reverse order. ");
         int exerciseSelection = scanner.nextInt();
         executeSelectedExercise(exerciseSelection);
     }
